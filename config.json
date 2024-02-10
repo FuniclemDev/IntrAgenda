@@ -1,0 +1,20 @@
+[
+    {
+        "COMMENT": "Main-student",
+        "IDCALENDAR": "xxxxxxxxxx...xxx@group.calendar.google.com",
+        "IDPROJECT": "xxxxxxxxxxx...xxx@group.calendar.google.com",
+        "EMAIL": "xxxx.xxxx@epitech.eu",
+        "POPUP_MIN": 30,
+        "COLOR_BASE": 7,
+        "COLOR_EXAM": 11,
+        "COLOR_BEFORE_EXAM": 6,
+        "COLOR_PROJECT": 3,
+        "BTTF": "No",
+        "A2F": "YES",
+        "PASSWORD*": "your_password"
+    },
+    {
+        "COMMENT": "Chrome, Firefox",
+        "BROWSER": "Chrome"
+    }
+]
