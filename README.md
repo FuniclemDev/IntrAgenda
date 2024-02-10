@@ -73,7 +73,7 @@ $ ./setup_config.sh
 ```
 and follow the instructions.
 
-**Attention:**
+**Warning:**
 
 *Your password is required for login.* The program encrypts your password after the initial use, but it is not completely secure. I assume no responsibility for the use of your Intranet credentials in the IntrAgenda project.
 
