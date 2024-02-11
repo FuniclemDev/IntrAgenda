@@ -238,7 +238,7 @@ def get_projects():
             h3_text = "It's ok you pass"
         # Exemple d'extraction de texte de l'élément h3 dans chaque article
         h3_text = article.find_element(By.TAG_NAME, 'h3').text
-        if h3_text[:18] == "Back To The Future" and not bttf:
+        if (h3_text[:18] == "Back To The Future" and not bttf) or h3_text[:9] == "Bootstrap":
             continue
         # Exemple d'extraction de texte de l'élément de date dans chaque article
         date_text = reformat(article.find_elements(By.CLASS_NAME, 'date')[0].text)
